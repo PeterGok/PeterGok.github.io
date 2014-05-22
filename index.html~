@@ -43,7 +43,7 @@
                     <a href="#developer">Developer</a>
                 </li>
                 <li id="separator">
-                    <span class="helper"></span> <img src="images/swirl.png" alt="Separator"/>
+                    <span class="helper"></span><img src="images/swirl.png" alt="Separator"/>
                 </li>
                 <li class="text">
                     <a href="#designer">Designer</a>
