@@ -31,15 +31,7 @@
     <div id="particles-js"></div>
   	<div class="tabContent hide" id="home">
         <div id="main-container">
-    	  	<span data-picture data-alt="A beautiful image of none other than the magnificient Peter Gokhshteyn!">
-    	  		<span data-src="images/selfPhotoLarge.png"></span>
-    	  		<span data-src="images/selfPhotoLarge.png" data-media="(min-width: 800px)"></span>
-
-    	  		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-    	        <noscript>
-    	            <img src="selfPhotoSmall.jpg" alt="A beautiful image of none other than the magnificient Peter Gokhshteyn!"/>
-    	        </noscript>
-    	  	</span>
+    	  	<img id="selfPhoto" alt="A beautiful image of none other than the magnificient Peter Gokhshteyn!" src="images/selfPhotoLarge.png">
             <div id="text-container">
                 <ul id="text-links">
                     <li class="text">
@@ -322,7 +314,6 @@
 	</section>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/picturefill.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/script.js"></script>
 </html>
