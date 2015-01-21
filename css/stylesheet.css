@@ -302,8 +302,8 @@ ul {
 }
 
 #engineer .details-section {
-	width: 350px !important;
-	font-size: 18px !important;
+	width: 200px !important;
+	font-size: 15px !important;
 	margin-left: 20px !important;
 	margin-right: 20px !important;
 }
@@ -401,5 +401,13 @@ p.dev-top.shrink {
 }
 
 #notify-me img {
+	width: 100px;
+}
+
+#reflex img {
+	width: 120px;
+}
+
+#retail-sensei-hardware img {
 	width: 100px;
 }
