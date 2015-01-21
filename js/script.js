@@ -227,8 +227,10 @@ function getHash(url) {
     return url.substring(hashPos + 1);
 };
 
-$( document ).ready(function() {
-    startParticles();
+$("#home img").one("load", function() {
+   startParticles();
+}).each(function() {
+  if(this.complete) $(this).load();
 });
 
 function reloadParticles() {
