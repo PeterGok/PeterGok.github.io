@@ -235,7 +235,7 @@ function reloadParticles() {
     var tab = jQuery('.tabContent').not('.hide');
         var height = 0;
         if (tab.attr('id') == "home") {
-            height = jQuery('#main-container').outerHeight();
+            height = 660;
         } else {
             height = tab.outerHeight();
         }

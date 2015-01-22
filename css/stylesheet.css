@@ -94,10 +94,14 @@ section, #home {
 	padding-top: 60px;
 	padding-bottom: 0px;
 	padding-right: 0px;
-	background: url(../images/backgroundLarge.jpg);
 	background-repeat: no-repeat;
 	height: 100%;
 	position: relative;
+}
+
+#particles-js {
+	background: url(../images/backgroundLarge.jpg);
+	min-width: 1480px;
 }
 
 #home {
