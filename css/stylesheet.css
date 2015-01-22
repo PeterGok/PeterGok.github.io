@@ -79,6 +79,10 @@ img {
 	vertical-align: bottom;
 }
 
+#selfPhoto {
+	height: 600px;
+}
+
 .extend-to-bottom, body {
 	background-color: black;
 	margin: 0;
@@ -100,7 +104,9 @@ section, #home {
 }
 
 #particles-js {
-	background: url(../images/backgroundLarge.jpg);
+	background: url(../images/backgroundSmall.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 	min-width: 1480px;
 }
 
