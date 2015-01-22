@@ -227,10 +227,8 @@ function getHash(url) {
     return url.substring(hashPos + 1);
 };
 
-$("#home #selfPhoto").one("load", function() {
+imagesLoaded($("#selfPhoto"), function() {
    startParticles();
-}).each(function() {
-  if(this.complete) $(this).load();
 });
 
 function reloadParticles() {
